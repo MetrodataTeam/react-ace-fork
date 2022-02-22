@@ -1,10 +1,10 @@
 import { expect } from "chai";
 import React from "react";
 import sinon from "sinon";
-import ace from "brace";
+import ace from "brace-fork";
 import Enzyme, { mount } from "enzyme";
 import AceEditor from "../../src/ace.js";
-import brace from "brace"; // eslint-disable-line no-unused-vars
+import brace from "brace-fork"; // eslint-disable-line no-unused-vars
 import Adapter from "enzyme-adapter-react-16";
 
 Enzyme.configure({ adapter: new Adapter() });
